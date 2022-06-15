@@ -1,0 +1,41 @@
+@font-face {
+    font-weight: 400;
+    font-display: swap;
+    font-family: 'IBM Plex Sans';  //IBM Plex Sans Regular 
+        src: url('../fonts/IBM PlexSans/IBMPlexSans-Regular.woff') format('woff'),
+             url('../fonts/IBM PlexSans/IBMPlexSans-Regular.woff2') format('woff2');  
+}
+@font-face {
+    font-weight: 700;
+    font-display: swap;
+    font-family: 'IBM Plex Sans';  //IBM Plex Sans Bold 
+        src: url('../fonts/IBM PlexSans/IBMPlexSans-Bold.woff') format('woff'),
+             url('../fonts/IBM PlexSans/IBMPlexSans-Bold.woff2') format('woff2');  
+}
+@font-face {
+    font-weight: 700;
+    font-display: swap;
+    font-family: 'Gilroy';  //Gilroy Bold 
+        src: url('../fonts/Gilroy/Gilroy-Bold.woff') format('woff'),
+             url('../fonts/Gilroy/Gilroy-Bold.woff2') format('woff2');  
+}
+@font-face {
+    font-weight: 400;
+    font-display: swap;
+    font-family: 'Gilroy';  //Gilroy Regular 
+        src: url('../fonts/Gilroy/Gilroy-Regular.woff') format('woff'),
+             url('../fonts/Gilroy/Gilroy-Regular.woff2') format('woff2');  
+}
+@font-face {
+    font-weight: 300;
+    font-display: swap;
+    font-family: 'PT Root UI';  //PT Root UI Light 
+        src: url('../fonts/PT Root UI Light/PTRootUI-Light.woff') format('woff'),
+             url('../fonts/PT Root UI Light/PTRootUI-Light.woff2') format('woff2');  
+}
+@font-face {
+    font-display: swap;
+    font-family: 'IBM Plex Sans';  //IBM Plex Sans Italic
+        src: url('../fonts/IBM PlexSans/IBMPlexSans-Italic.woff') format('woff'),
+             url('../fonts/IBM PlexSans/IBMPlexSans-Italic.woff2') format('woff2');  
+}

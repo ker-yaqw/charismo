@@ -1,0 +1,1549 @@
+//==============================Главная====================================
+//=================Главная header-banner===================================
+@media (max-width: 1840px) {
+    .header-banner {
+        &::after,
+        &::before {
+            display: none;
+        }
+    }
+    //========================pop-up========================================
+    .modal-content {
+        padding: 32px;
+        width: 768px;
+    }
+    .modal-content__close {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    .modal-content__text {
+        display: none;
+    }
+    .modal-content-form__message {
+        padding-bottom: 72px;
+    }
+    .modal-content__title {
+        font-size: 37px;
+        line-height: 47px;
+    }
+    //=====================================================================
+    //========================Главная reviews==============================
+    .reviews {
+        &::after,
+        &::before {
+            display: none;
+        }
+    }
+    //=====================================================================
+    //==========================Главная partners=============================
+    .main {
+        .partners .swiper-slide img:first-child {
+            display: none;
+        }
+        .partners .swiper-slide {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+}
+@media (max-width: 1420px) {
+    //=================Главная header======================================
+    .header-top-nav__link {
+        font-size: 13px;
+    }
+    .header-down-nav__link {
+        font-size: 15px;
+    }
+    .header-top-register__link {
+        font-size: 13px;
+    }
+    .header-down-actions__button {
+        width: 190px;
+        font-size: 15px;
+    }
+    .header-banner-info__title {
+        font-size: 37px;
+    }
+    .header-banner-info__description {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .header-banner-info__button-link {
+        font-size: 19px;
+    }
+    //===============================about==================================
+    .about__title {
+        font-size: 36px;
+    }
+    //=============================product-info=============================
+    .product-info__title {
+        font-size: 36px;
+    }
+    .main {
+        //============================feedback-banner==============================
+        .feedback-banner {
+            position: relative;
+            &::after,
+            &::before {
+                display: none;
+            }
+        }
+        .feedback-banner__title {
+            font-size: 37px;
+            line-height: 50px;
+        }
+        .feedback-banner__button {
+            font-size: 19px;
+        }
+        //============================reviews=======================================
+        .reviews {
+            padding-top: 72px;
+            padding-bottom: 86px;
+        }
+        .reviews__title {
+            font-size: 39px;
+            line-height: 46px;
+        }
+        //===========================partners=======================================
+        .partners .swiper-slide img:last-child {
+            display: none;
+        }
+        .partners .swiper-slide {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 42px;
+        }
+        .partners {
+            margin: 80px 0;
+        }
+        .partners__title {
+            font-size: 39px;
+        }
+    }
+    //=======================breadcrumb======================================
+    .page-shop,
+    .page-faq,
+    .page-reviews,
+    .page-blog,
+    .page-post,
+    .page-card {
+        .breadcrumb {
+            padding: 47px 0;
+            display: flex;
+            align-items: flex-start;
+        }
+        .breadcrumb__list::after {
+            position: absolute;
+            top: 48px;
+        }
+    }
+    //======================================================================
+    //==================Page-shop============================================
+    .page-shop {
+        .product__wrapper {
+            margin-top: 77px;
+            margin-bottom: 75px;
+            display: grid;
+            gap: 53px;
+        }
+    }
+    //==================Page-faq=============================================
+    .page-faq {
+        .accordion {
+            margin-bottom: 120px;
+        }
+    }
+    //=========================Page-reviews===============================
+    .page-reviews {
+        .reviews-top {
+            margin-top: 65px;
+            margin-bottom: 50px;
+        }
+        .reviews-top-item::before {
+            font-size: 64px;
+            line-height: 74px;
+        }
+    }
+    //======================Page-blog========================================
+    .page-blog {
+        .blog {
+            margin-top: 64px;
+            margin-bottom: 100px;
+        }
+        .blog-content-info__item-subtitle {
+            font-size: 17px;
+            line-height: 21px;
+        }
+        .blog-content-info__item-title {
+            font-size: 22px;
+            line-height: 27px;
+        }
+        .blog-aside-categories__link {
+            font-size: 17px;
+            line-height: 23px;
+        }
+        .blog-aside-popular__title {
+            font-size: 19px;
+            line-height: 24px;
+        }
+    }
+    //===============Page-post=============================================
+    .page-post {
+        .breadcrumb__list::before {
+            position: absolute;
+            top: 48px;
+        }
+        .post {
+            margin: 57px 0;
+        }
+        .post-content__title {
+            display: none;
+        }
+        .post-content__img {
+            margin-bottom: 25px;
+        }
+    }
+    //================Page-card==============================================
+    .page-card {
+        .breadcrumb__list::before {
+            position: absolute;
+            top: 48px;
+        }
+        .product-card {
+            margin-top: 63px;
+            margin-bottom: 142px;
+        }
+        .product-card-info__title {
+            font-size: 28px;
+            line-height: 34px;
+        }
+        .product-card-tabs__item {
+            font-size: 19px;
+            line-height: 24px;
+        }
+        .product-card-info__button-cart,
+        .product-card-info__button-order {
+            font-size: 19px;
+            line-height: 24px;
+        }
+        .product-card-tabs__wrapper {
+            margin-top: 58px;
+            margin-bottom: 54px;
+        }
+        .product-card-info__price {
+            font-size: 23px;
+            line-height: 26px;
+        }
+        .product-card-info__text {
+            font-size: 15px;
+            line-height: 21px;
+            margin-bottom: 20px;
+        }
+    }
+    //================footer=================================================
+    .footer-content-section__nav-link {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .footer-content-section__form-button {
+        font-size: 17px;
+        line-height: 23px;
+    }
+}
+@media (max-width: 1230px) {
+    //=================Главная header========================================
+    .header {
+        .header-top__wrapper {
+            display: none;
+        }
+        //========================Главная header-down======================
+        .header-down__wrapper {
+            height: 70px;
+            position: relative;
+        }
+        .header-down-nav {
+            display: none;
+        }
+        .header-down-actions {
+            display: none;
+        }
+        //========================Главная .header-banner===================
+        .header-banner {
+            border-top: none;
+            padding-bottom: 50px;
+        }
+        .header-banner__wrapper {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            flex-direction: column-reverse;
+        }
+        .header-banner-info {
+            width: 100%;
+        }
+        .header-banner-info__title {
+            margin: 0 auto;
+            text-align: center;
+            width: 100%;
+            font-size: 35px;
+            line-height: 46px;
+        }
+        .header-banner-info__description {
+            margin: 17px auto 23px auto;
+            text-align: center;
+        }
+        .header-banner-info__button-link {
+            margin: 0 auto;
+        }
+        //================Главная header top menu-mobile============
+        .menu-mobile {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 667px;
+            z-index: 4;
+            padding: 77px 20px;
+            background-color: #fff;
+            text-align: left;
+            transform: translateY(-120%);
+            transition: transform 0.5s;
+            &::after {
+                content: "";
+                width: 100%;
+                height: 50px;
+                background: linear-gradient(180deg, #f4f7fe 0%, rgba(244, 247, 254, 0.5) 100%);
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+        }
+        .menu-mobile--active {
+            transform: translateY(0%);
+        }
+        //=========Главная header menu-mobile navigation top====================
+        .menu-mobile-nav {
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+        }
+        .menu-mobile-nav__link {
+            display: block;
+            width: 100%;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: $dark-blue;
+            position: relative;
+            &::after {
+                content: "";
+                background: url("../img/svg/home/home-mobile/arrow-menu-mobile.svg") no-repeat, center;
+                width: 8px;
+                height: 12px;
+                position: absolute;
+                top: 5px;
+                right: 0;
+            }
+        }
+        //=================Главная menu-mobile registration============
+        .menu-mobile-register {
+            margin-top: 28px;
+        }
+        .menu-mobile-register__link {
+            display: block;
+            width: 100%;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: $dark-blue;
+            margin: 28px 0;
+            position: relative;
+        }
+        .menu-mobile-register__link--login {
+            &::after {
+                content: "";
+                background: url("../img/svg/home/home-mobile/login-menu-mobile.svg") no-repeat, center;
+                width: 15px;
+                height: 15px;
+                position: absolute;
+                top: 5px;
+                right: 0;
+            }
+        }
+        .menu-mobile-register__link--cart {
+            &::after {
+                content: "";
+                background: url("../img/svg/home/home-mobile/cart-menu-mobile.svg") no-repeat, center;
+                width: 15px;
+                height: 15px;
+                position: absolute;
+                top: 5px;
+                right: 0;
+            }
+        }
+        .menu-mobile-register__list {
+            border-top: 1px solid #e7e7e7;
+        }
+        //========================Главная menu-mobile phone======================
+        .menu-mobile-phone {
+            padding-top: 28px;
+            margin-bottom: 40px;
+            border-top: 1px solid #e7e7e7;
+        }
+        .menu-mobile-phone__link {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 21px;
+            color: $dark-blue;
+        }
+        //========================Главная menu-mobile social===================
+        .menu-mobile-social {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+        //========================header humburger-menu========================
+        .humburger-menu {
+            display: block;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            right: 7px;
+            z-index: 5;
+            cursor: pointer;
+        }
+        .humburger-menu__line {
+            width: 23px;
+            height: 3px;
+            background-color: $blue;
+            position: absolute;
+            top: 50%;
+            bottom: -50%;
+            right: 4px;
+            &::before {
+                content: "";
+                width: 23px;
+                height: 3px;
+                background-color: $blue;
+                position: absolute;
+                top: -8px;
+                right: 0;
+                left: 0;
+            }
+            &::after {
+                content: "";
+                width: 12px;
+                height: 3px;
+                background-color: $blue;
+                position: absolute;
+                bottom: -8px;
+                right: 0;
+            }
+        }
+        .humburger-menu--active {
+            position: absolute;
+            top: 20px;
+            left: 15px;
+            border-radius: 50%;
+            background-color: $blue;
+        }
+        .humburger-menu--active .humburger-menu__line {
+            width: 20px;
+            background-color: #fff;
+            &::before,
+            &::after {
+                content: "";
+                background-color: #fff;
+                border-radius: 2px;
+                width: 20px;
+                height: 2px;
+                position: absolute;
+                transition: all 0.3s;
+            }
+            &::before {
+                top: -1px;
+                left: -21px;
+            }
+            &::after {
+                bottom: 2px;
+            }
+        }
+        .humburger-menu--active .humburger-menu__line::before {
+            transform: rotate(45deg);
+            top: -1px;
+        }
+        .humburger-menu--active .humburger-menu__line::after {
+            transform: rotate(-45deg);
+            bottom: 2px;
+        }
+        .humburger-menu--active .humburger-menu__line {
+            width: 0;
+        }
+    }
+    //=====================================================================
+    //========================Главная main about===========================
+    .main {
+        .about {
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
+        .about .about__wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: left;
+            gap: 20px;
+        }
+        .about .about-items {
+            padding: 8px;
+            width: 358px;
+        }
+        .about .about-items__text {
+            width: 100%;
+        }
+        //==================================================================
+        //========================Главная main product-info=================
+        .product-info .product-info__wrapper {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 127px;
+        }
+        //=================================================================
+        //========================Главная main feedback-banner=============
+        .feedback-banner {
+            padding-top: 30px;
+            margin-top: 0;
+        }
+        .feedback-banner__title {
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 39px;
+            text-align: center;
+        }
+        .feedback-banner__text {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            text-align: center;
+            margin-top: 20px;
+            width: 100%;
+        }
+        .feedback-banner__button {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 18px;
+            padding: 20px 72px;
+        }
+        //=================================================================
+        //===============Главная reviews===================================
+        .reviews {
+            padding-top: 66px;
+            padding-bottom: 77px;
+        }
+        .reviews__title {
+            font-size: 37px;
+            line-height: 46px;
+        }
+        .reviews-slider__arrows {
+            display: none;
+        }
+        .reviews-slider-pagination {
+            display: flex;
+        }
+        .reviews-slider-item:last-child {
+            display: none;
+        }
+        .reviews-slider-items {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .reviews__description {
+            margin-top: 20px;
+        }
+        //====================Главная partners==============================
+        .partners {
+            margin: 77px 0;
+        }
+        .partners__title {
+            font-size: 37px;
+        }
+    }
+    //==================Page-shop============================================
+    .page-shop {
+        .product__wrapper {
+            margin-top: 56px;
+            margin-bottom: 52px;
+            display: grid;
+            gap: 53px;
+        }
+        .product-item__title {
+            font-size: 18px;
+            line-height: 20px;
+        }
+        .product-item__button-order {
+            display: none;
+        }
+        .product-item__button-cart {
+            width: 100%;
+            margin-right: 0;
+            text-align: center;
+            font-size: 19px;
+        }
+    }
+    //==================Page-faq=============================================
+    .page-faq {
+        .accordion {
+            margin-bottom: 70px;
+        }
+        .accordion .accordion-item__title {
+            font-size: 18px;
+            line-height: 20px;
+            max-width: 680px;
+        }
+        .accordion .accordion-item__text {
+            font-size: 14px;
+            line-height: 21px;
+            max-width: 695px;
+        }
+    }
+    //=========================Page-reviews===============================
+    .page-reviews {
+        .reviews-top {
+            margin-top: 60px;
+            margin-bottom: 50px;
+        }
+        .reviews-top-item__title {
+            font-size: 19px;
+            line-height: 24px;
+        }
+        .reviews-top-item__link {
+            font-size: 17px;
+            position: relative;
+        }
+        .reviews-top-item__link::after {
+            position: absolute;
+            top: 8px;
+            left: 164px;
+        }
+    }
+    //======================Page-blog========================================
+    .page-blog {
+        .blog {
+            margin-top: 60px;
+            margin-bottom: 75px;
+        }
+        .blog-content-info__item-subtitle {
+            font-size: 17px;
+            line-height: 21px;
+        }
+        .blog-content-info__item-title {
+            font-size: 22px;
+            line-height: 27px;
+        }
+        .blog-aside-categories__link {
+            font-size: 17px;
+            line-height: 23px;
+        }
+        .blog-aside-popular__title {
+            font-size: 19px;
+            line-height: 24px;
+        }
+        .blog-aside-categories {
+            display: none;
+        }
+        .blog-aside-popular {
+            display: none;
+        }
+        .blog-aside-tags {
+            display: none;
+        }
+        .blog-aside {
+            height: 0;
+            padding: 0;
+        }
+        .blog-aside-form {
+            border: 1px solid #e7e7e7;
+            border-radius: 5px;
+        }
+        .blog__wrapper {
+            display: flex;
+            gap: 100px;
+            flex-direction: column-reverse;
+        }
+        .blog-pagination__list {
+            width: 44px;
+            height: 45px;
+        }
+        .blog-pagination {
+            margin-top: 0px;
+        }
+    }
+    //===============Page-post=============================================
+    .page-post {
+        .post {
+            margin: 50px 0;
+        }
+    }
+    //================Page-card==============================================
+    .page-card {
+        .product-card {
+            margin-top: 63px;
+            margin-bottom: 100px;
+        }
+        .product-card-info__title {
+            font-size: 27px;
+            line-height: 32px;
+        }
+        .product-card-tabs__item {
+            font-size: 18px;
+            line-height: 22px;
+        }
+        .product-card-tabs__wrapper {
+            margin-top: 60px;
+            margin-bottom: 54px;
+        }
+        .product-card__wrapper {
+            display: flex;
+            gap: 50px;
+            flex-direction: column;
+            align-items: start;
+        }
+        .breadcrumb {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+    }
+    //========================Главная footer==============================
+    .footer {
+        padding-top: 86px;
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .footer-copyright {
+            padding-top: 30px;
+            display: flex;
+            gap: 200px;
+        }
+    }
+    //=====================================================================
+    //========================pop-up=======================================
+    .modal-content {
+        padding: 30px;
+        width: 70%;
+    }
+    .modal-content__title {
+        font-size: 34px;
+        line-height: 38px;
+        margin-top: 12px;
+        margin-bottom: 15px;
+    }
+    .modal-content__text {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 20px;
+        display: none;
+    }
+    //=====================pop-up form=====================================
+    .modal-content-form__name,
+    .modal-content-form__phone,
+    .modal-content-form__email {
+        padding: 14px 15px 16px 20px;
+        line-height: 18px;
+    }
+    .modal-content-form__message {
+        display: none;
+    }
+    .modal-content-form__button {
+        height: 47px;
+    }
+    .modal-content-form__text {
+        display: none;
+    }
+    .modal-content-form__wrapper {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 15px;
+        gap: 20px;
+    }
+    //=====================================================================
+}
+//=========================================================================
+//=========================================================================
+
+//=========================================================================
+//=========================================================================
+@media (max-width: 768px) {
+    .logo img {
+        width: 110px;
+    }
+    //========================Главная header header-banner=================
+    .header-banner {
+        padding-top: 45px;
+        padding-bottom: 50px;
+    }
+    .header-banner .header-banner__wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .header-banner .header-banner-info__title {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 39px;
+        margin: 0 auto;
+        text-align: center;
+        width: 320px;
+    }
+    .header-banner .header-banner-info__description {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0 auto;
+        margin-top: 17px;
+        margin-bottom: 23px;
+        text-align: center;
+        width: 320px;
+    }
+    .header-banner .header-banner-info__button-link {
+        display: block;
+        width: 288px;
+        height: 55px;
+        padding: 18px 100px;
+        background: $blue;
+        border-radius: 5px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        margin: 0 auto;
+        position: relative;
+        &::after {
+            content: "";
+            background: url("../img/svg/home/home-mobile/arrow-button-white-mobile.svg") no-repeat, center;
+            width: 9px;
+            height: 8px;
+            position: absolute;
+            right: 84px;
+            top: 25px;
+        }
+    }
+    //=================================================================
+    //========================humburger menu===========================
+    .header .humburger-menu {
+        width: 25px;
+        height: 25px;
+    }
+    .header .humburger-menu__line {
+        width: 20px;
+        &::before {
+            width: 20px;
+        }
+    }
+    .header .humburger-menu--active .humburger-menu__line {
+        &::before,
+        &::after {
+            content: "";
+            width: 18px;
+            height: 2px;
+        }
+        &::before {
+            top: -1px;
+            left: -17px;
+        }
+        &::after {
+            bottom: 2px;
+        }
+    }
+    //========================Главная main about===========================
+    .main {
+        .about .about__title {
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 39px;
+            text-align: center;
+        }
+        .about .about__description {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            margin-bottom: 48px;
+            text-align: center;
+        }
+        .about .about__wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+        .about .about-items {
+            height: 205px;
+        }
+        .about .about-items img {
+            margin: 0 auto;
+        }
+        .about .about-items__title {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 21px;
+            padding-top: 20px;
+            padding-bottom: 8px;
+            text-align: center;
+        }
+        .about .about-items__text {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            text-align: center;
+        }
+        //=================================================================
+        //========================Главная main product-info================
+        .product-info .product-info__title {
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 39px;
+            text-align: center;
+        }
+        .product-info .product-info__description {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            margin: 0 auto;
+            margin-top: 11px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .product-info .product-info__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+        }
+        .product-info .product-info-items__title {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 21px;
+            text-align: left;
+            padding-left: 15px;
+        }
+        .product-info .product-info-items__text {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            text-align: left;
+            padding-left: 15px;
+            width: 100%;
+        }
+        .product-info .product-info-items__button-link {
+            margin-left: 0;
+            padding-left: 15px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 21px;
+            position: relative;
+            &::after {
+                content: "";
+                background: url("../img/svg/home/home-mobile/arrow-button-blue-mobile.svg") no-repeat, center;
+                width: 9px;
+                height: 8px;
+                position: absolute;
+                right: 10px;
+                top: 8px;
+            }
+        }
+        //=================================================================
+        //========================Главная main feedback-banner=============
+        .feedback-banner__title {
+            width: 325px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .feedback-banner__text {
+            line-height: 24px;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            width: 320px;
+        }
+        //=================================================================
+        //===============Главная reviews===================================
+        .reviews {
+            padding-top: 58px;
+            padding-bottom: 70px;
+        }
+        .reviews__title {
+            font-size: 35px;
+            line-height: 38px;
+        }
+        .reviews-slider-item:first-child {
+            display: none;
+        }
+        .reviews-slider-items {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .reviews__description {
+            margin-top: 21px;
+            line-height: 18px;
+            margin-bottom: 42px;
+        }
+        .reviews-slider-item__user-subtitle {
+            font-size: 17px;
+            line-height: 20px;
+        }
+        .reviews-slider-item__user-title {
+            font-size: 19px;
+            line-height: 20px;
+        }
+        .reviews-slider-item__description {
+            font-size: 17px;
+            line-height: 20px;
+        }
+        .reviews-slider-item__link {
+            font-size: 17px;
+            line-height: 21px;
+        }
+        //===========================partners==============================
+        .partners {
+            margin: 75px 0;
+        }
+        .partners__title {
+            font-size: 34px;
+            line-height: 39px;
+        }
+        .partners__description {
+            font-size: 18px;
+            line-height: 20px;
+            margin-top: 16px;
+            margin-bottom: 53px;
+        }
+    }
+    //==================Page-shop============================================
+    .page-shop {
+        .product__wrapper {
+            margin-top: 46px;
+            margin-bottom: 32px;
+        }
+        .product-item__title {
+            font-size: 16px;
+            line-height: 20px;
+        }
+        .product-item__button-cart {
+            font-size: 17px;
+        }
+        .product-item {
+            height: 485px;
+        }
+    }
+    //==================Page-faq=============================================
+    .page-faq {
+        .accordion {
+            margin-bottom: 60px;
+        }
+        .accordion .accordion-item__title {
+            font-size: 16px;
+            line-height: 21px;
+            max-width: 400px;
+        }
+        .accordion .accordion-item__text {
+            max-width: 675px;
+        }
+    }
+    //=========================Page-reviews===============================
+    .page-reviews {
+        .reviews-top {
+            margin-top: 60px;
+            margin-bottom: 23px;
+        }
+        .reviews-top__wrapper {
+            display: grid;
+            justify-items: center;
+        }
+        .reviews-top-item::before {
+            font-size: 60px;
+            line-height: 87px;
+        }
+        .reviews-top-item {
+            height: 213px;
+        }
+        .reviews-top-item__title {
+            font-size: 17px;
+            line-height: 20px;
+        }
+        .reviews-top-item__description {
+            font-size: 15px;
+            line-height: 19px;
+        }
+        .reviews-top-item__link {
+            font-size: 16px;
+            position: relative;
+        }
+        .reviews-top-item__link::after {
+            position: absolute;
+            top: 8px;
+            left: 158px;
+        }
+    }
+    //======================Page-blog========================================
+    .page-blog {
+        .blog {
+            margin-top: 37px;
+            margin-bottom: 50px;
+        }
+        .blog-content-info__item-subtitle {
+            font-size: 16px;
+            line-height: 20px;
+        }
+        .blog-content-info {
+            text-align: start;
+            margin: 0 auto;
+        }
+        .blog-content-info__item-title {
+            font-size: 20px;
+            line-height: 22px;
+        }
+        .blog-content-info__item-text {
+            font-size: 15px;
+            line-height: 20px;
+        }
+        .blog-aside-categories__link {
+            font-size: 17px;
+            line-height: 23px;
+        }
+        .blog-content__item {
+            width: 100%;
+            display: flex;
+            gap: 30px;
+            padding: 40px 0;
+            margin: 0;
+            border-bottom: 1px solid #e7e7e7;
+            flex-direction: column;
+            align-items: center;
+        }
+        .blog-content__item img {
+            width: 345px;
+        }
+        .blog__wrapper {
+            display: flex;
+            gap: 54px;
+            align-items: center;
+        }
+        .blog-pagination {
+            margin-top: 50px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    //===============Page-post=============================================
+    .page-post {
+        .post {
+            margin: 20px 0;
+        }
+        .post-content-social {
+            margin-top: 40px;
+        }
+        .post-content__text--top {
+            display: none;
+        }
+        .post-content__text--middle {
+            margin-top: 30px;
+        }
+    }   
+    //================Page-card==============================================
+    .page-card {
+        .product-card {
+            margin-top: 63px;
+            margin-bottom: 55px;
+        }
+        .product-card-info__title {
+            font-size: 25px;
+            line-height: 32px;
+        }
+        .product-card-tabs__item {
+            font-size: 14px;
+            line-height: 18px;
+        }
+        .product-card-info__button-cart,
+        .product-card-info__button-order {
+            font-size: 19px;
+            line-height: 24px;
+        }
+        .product-card-tabs__wrapper {
+            display: flex;
+            gap: 82px;
+            margin-top: 60px;
+            margin-bottom: 54px;
+        }
+        .product-card-info__price {
+            font-size: 25px;
+            line-height: 32px;
+        }
+        .product-card-info__text {
+            font-size: 14px;
+            line-height: 18px;
+            margin-bottom: 20px;
+            padding-top: 24px;
+        }
+        .product-card-info__wrapper {
+            display: flex;
+            gap: 12px;
+            flex-direction: column;
+            align-items: flex-start;
+            padding-bottom: 35px;
+        }
+        .product-card-info__button-cart{
+            margin-top: 25px;
+        }
+        .product-card-tabcontent__title {
+            font-size: 14px;
+            line-height: 18px;
+        }
+        .product-card-tabcontent__list-item {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+        }
+        .product-card-tabcontent__text {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+    //======================Главная footer=================================
+    .footer {
+        .footer-copyright {
+            padding-top: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0;
+        }
+        .footer-copyright__text {
+            &:nth-child(2) {
+                display: none;
+            }
+        }
+        .footer-content-section__title {
+            &:nth-child(1) {
+                display: none;
+            }
+        }
+        .footer-content-section__descpiption {
+            width: 320px;
+            font-size: 14px;
+            margin: 10px 0 32px 0;
+            line-height: 18px;
+        }
+        .footer-content-section__form,
+        .footer-content-section__nav {
+            display: none;
+        }
+    }
+    //=====================================================================
+    //========================pop-up=======================================
+    .modal-content {
+        padding: 20px;
+        width: 70%;
+    }
+    .modal-content__close {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+    }
+    .modal-content__subtitle {
+        font-size: 14px;
+        line-height: 24px;
+        width: 200px;
+    }
+    .modal-content__title {
+        font-size: 30px;
+        line-height: 32px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .modal-content__text {
+        display: none;
+    }
+    //=====================pop-up form=====================================
+    .modal-content-form__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-top: 0;
+        gap: 15px;
+    }
+    .modal-content-form__message {
+        padding: 14px 15px 27px 20px;
+    }
+    .modal-content-form__text {
+        display: none;
+    }
+    .modal-content-form__email {
+        display: none;
+    }
+    .modal-content-form__checkbox,
+    .modal-content-form__checkbox[type="checkbox"],
+    .modal-content-form__label::before {
+        display: none;
+    }
+    //=====================================================================
+}
+
+@media (max-width: 480px) {
+    //========================Главная header header-banner=================
+    .header-banner .header-banner__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .header-banner .header-banner-info__title {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 39px;
+        text-align: left;
+        margin-left: 0;
+        width: 325px;
+    }
+    .header-banner .header-banner-info__description {
+        margin-left: 0;
+        margin-top: 17px;
+        margin-bottom: 23px;
+        text-align: left;
+    }
+    .header-banner .header-banner-info__button-link {
+        margin-left: 0;
+    } //========================Главная main about===========================
+    .main {
+        .about .about__title,
+        .about .about__description {
+            text-align: left;
+            width: 342px;
+        }
+        .about .about__wrapper {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .about .about-items img {
+            margin-left: 0;
+        }
+        .about .about-items__title,
+        .about .about-items__text {
+            text-align: left;
+            width: 335px;
+        }
+        //=================================================================
+        //========================Главная main product-info================
+        .product-info .product-info__title {
+            text-align: left;
+        }
+        .product-info .product-info__description {
+            margin-left: 0;
+            text-align: left;
+        }
+        .product-info .product-info__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 25px;
+        }
+        //=================================================================
+        //===============Главная reviews===================================
+        .reviews__title {
+            font-size: 30px;
+            line-height: 38px;
+        }
+        .reviews__description {
+            margin-top: 21px;
+            line-height: 21px;
+            margin-bottom: 18px;
+        }
+        .reviews-slider-item__user-subtitle {
+            font-size: 14px;
+            line-height: 18px;
+        }
+        .reviews-slider-item__user-title {
+            font-size: 16px;
+            line-height: 21px;
+            margin: 6px 0;
+        }
+        .reviews-slider-item__description {
+            font-size: 16px;
+            line-height: 21px;
+        }
+        .reviews-slider-item__text {
+            font-size: 14px;
+            line-height: 18px;
+        }
+        .reviews-slider-item__link {
+            font-size: 16px;
+            line-height: 21px;
+        }
+        //========================partners==============================
+        .partners__title {
+            font-size: 30px;
+            line-height: 39px;
+        }
+        .partners__description {
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+    //==================Page-faq=============================================
+    .page-faq {
+        .accordion .accordion-item__title {
+            max-width: 250px;
+        }
+        .accordion .accordion-item__text {
+            max-width: 325px;
+        }
+    }
+    //=========================Page-reviews===============================
+    .page-reviews {
+        .reviews-top {
+            margin-top: 60px;
+            margin-bottom: 15px;
+        }
+        .reviews-top__wrapper {
+            display: grid;
+            gap: 67px;
+            justify-items: start;
+        }
+        .reviews-top-item::before {
+            font-size: 50px;
+            line-height: 67px;
+        }
+        .reviews-top-item__title {
+            font-size: 16px;
+            line-height: 21px;
+        }
+        .reviews-top-item__description {
+            font-size: 14px;
+            line-height: 18px;
+        }
+        .reviews-top-item__link {
+            font-size: 14px;
+            line-height: 17px;
+            position: relative;
+        }
+        .reviews-top-item__link::after {
+            position: absolute;
+            top: 6px;
+            left: 140px;
+        }
+        .reviews-top-item {
+            height: 192px;
+        }
+    }
+    //======================Page-blog========================================
+    .page-blog {
+        .blog {
+            margin-top: 17px;
+            margin-bottom: 50px;
+        }
+        .blog-content-info__item-subtitle {
+            font-size: 14px;
+            line-height: 18px;
+        }
+        .blog-content-info {
+            text-align: start;
+            margin: 0 auto;
+        }
+        .blog-content-info__item-title {
+            font-size: 17px;
+            line-height: 21px;
+        }
+        .blog-content-info__item-text {
+            font-size: 14px;
+            line-height: 20px;
+        }
+        .blog-aside-categories__link {
+            font-size: 17px;
+            line-height: 23px;
+        }
+        .blog-content__item {
+            display: flex;
+            gap: 22px;
+            padding: 38px 0;
+        }
+        .blog-content__item img {
+            width: 335px;
+        }
+        .blog__wrapper {
+            display: flex;
+            gap: 50px;
+        }
+        .blog-pagination__list {
+            width: 38px;
+            height: 37px;
+        }
+    }
+    //===============Page-post=============================================
+    .page-post {
+        .post-content__text--middle {
+            display: none;
+        }
+        .post-content__text {
+            margin-top: 30px;
+        }
+        .breadcrumb {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    //================Page-card==============================================
+    .page-card {
+        .product-card-tabs__wrapper {
+            display: flex;
+            gap: 37px;
+            padding-left: 15px;
+        }
+    }
+    //===========navigation pages===========================================
+    .nav-list {
+        margin-bottom: 37px;
+    }
+    .nav-link {
+        font-size: 25px;
+    }
+    //========================pop-up=======================================
+    .modal {
+        height: 115vh;
+    }
+    .modal-content__close {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+    .modal-content__subtitle {
+        display: none;
+    }
+    .modal-content__title {
+        font-size: 25px;
+        line-height: 22px;
+    }
+    //=====================pop-up form=====================================
+    .modal-content-form__checkbox,
+    .modal-content-form__checkbox[type="checkbox"],
+    .modal-content-form__label::before {
+        display: none;
+    }
+}
+
+//=========================================================================
+//=========================================================================
